@@ -1,0 +1,141 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: wheat;
+      padding: 20px;
+      background-image: url();
+  }
+.h1{
+      text-align: center;
+}
+
+  .quiz-container {
+      background-color:aqua;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: auto;
+  }
+
+  .question {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+  }
+
+  .options {
+      margin-bottom: 20px;
+  }
+
+  .options label {
+      display: block;
+      margin-bottom: 8px;
+      cursor: pointer;
+  }
+
+  button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0;
+      height: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  button:hover {
+      background-color: #45a049;
+  }
+
+  .result {
+      margin-top: 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+  }
+  .footer{
+      text-align: center;
+      margin-top: 20px;
+      color: grey;
+      font-size: 0.8em;
+  }
+  /* style.css */
+
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Styling untuk body */
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+  }
+  
+  /* Styling untuk konten utama */
+  .content {
+      padding: 20px;
+      text-align: center;
+  }
+  
+  /* Styling untuk footer */
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .footer-left {
+      font-size: 14px;
+  }
+  
+  .footer-right ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  }
+  .footer-right ul li a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .footer-right ul li a:focus{
+      color: rgb(122, 240, 240);
+      text-decoration: none;
+  }
+.footer-right ul li a:hover{
+      color: aqua;
+      text-decoration: none;
+}
+
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 768px) {
+      .footer-container {
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .footer-right ul {
+          flex-direction: column;
+          margin-top: 10px;
+      }
+  
+      .footer-right ul li {
+          margin-bottom: 10px;
+      }
+  }
+  
